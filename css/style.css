@@ -162,3 +162,45 @@ header {
 .wishlist:hover {
     color: #FF0000;
 }
+
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+}
+
+footer .container {
+    height: 100%;
+    justify-content: space-between;
+}
+
+.information,
+.find-us {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.policy {
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+
+.policy li {
+    padding-right: 3px;
+}
+
+.find-us div {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.social li {
+    padding: 2px;
+}
