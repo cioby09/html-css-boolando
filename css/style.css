@@ -96,6 +96,7 @@ header {
 .name {
     font-size: 0.8rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .offer {
@@ -115,7 +116,7 @@ header {
 .discount {
     position: absolute;
     left: 0;
-    bottom: 80px;
+    bottom: 70px;
     background-color: #FF0000;
     color: #FFFFFF;
     padding: 3px 6px;
@@ -125,7 +126,7 @@ header {
 .green {
    position: absolute;
    left: 42px;
-   bottom: 80px;
+   bottom: 70px;
    background-color: #008000;
    color: #FFFFFF;
    padding: 3px 6px;
@@ -140,4 +141,9 @@ header {
     color: #000000;
     padding: 8px;
     font-size: 1.1rem;
+}
+
+/* debug */
+.six {
+    left: 0;
 }
