@@ -31,7 +31,10 @@ ul li {
 }
 
 /* Layout */
-
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
 /* Header */
 header {
     background-color: #FF6900;
@@ -40,9 +43,7 @@ header {
 }
 
 .navigation {
-    margin: 0 auto;
     height: 100%;
-    width: 70%;
     line-height: 50px;
 }
 
@@ -70,4 +71,20 @@ header {
 
 .icons {
     justify-content: end;
+}
+
+/* Main */
+.row {
+    border: 2px solid black;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.col {
+    border: 2px solid black;
+    width: calc(100% / 3 - (2rem / 3));
+}
+
+.middle {
+    margin: 0 1rem;
 }
