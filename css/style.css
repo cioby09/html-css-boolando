@@ -55,11 +55,6 @@ header {
     font-weight: bold;
 }
 
-.menu li:hover,
-.icons li:hover {
-    
-    border-bottom: 2px solid #FFFFFF;
-}
 .logo {
     width: 60%;
     justify-content: center;
@@ -75,13 +70,11 @@ header {
 
 /* Main */
 .row {
-    border: 2px solid black;
     flex-wrap: wrap;
     margin: 2rem 0;
 }
 
 .col {
-    border: 2px solid black;
     width: calc(100% / 3 - (2rem / 3));
 }
 
@@ -146,4 +139,26 @@ header {
 /* debug */
 .six {
     left: 0;
+}
+
+/* Hover */
+.menu li:hover,
+.icons li:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.back-image {
+    display: none;
+}
+
+.card:hover .front-image {
+    display: none;
+}
+
+.card:hover .back-image {
+    display: inline-block;
+}
+
+.wishlist:hover {
+    color: #FF0000;
 }
