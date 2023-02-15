@@ -88,3 +88,56 @@ header {
 .middle {
     margin: 0 1rem;
 }
+
+/* Tipography */
+.card {
+    font-size: 0.7rem;
+}
+.name {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.offer {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.msrp {
+    text-decoration: line-through;
+}
+
+/* Cards */
+.card{
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 3px 6px;
+    font-weight: bold;
+}
+
+.green {
+   position: absolute;
+   left: 42px;
+   bottom: 80px;
+   background-color: #008000;
+   color: #FFFFFF;
+   padding: 3px 6px;
+   font-weight: bold;
+}
+
+.wishlist {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 8px;
+    font-size: 1.1rem;
+}
